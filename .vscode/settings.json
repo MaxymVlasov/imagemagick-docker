@@ -1,0 +1,32 @@
+{
+  "cSpell.words": [
+    "HDRI",
+    "IMAGEMAGICK",
+    "LIBDE",
+    "LIBHEIF",
+    "autoconf",
+    "autogen",
+    "automake",
+    "deps",
+    "editorconfig",
+    "fontconfig",
+    "freetype",
+    "ghostscript",
+    "gslib",
+    "heic",
+    "lcms",
+    "libgomp",
+    "libjpeg",
+    "libpng",
+    "libtool",
+    "libwebp",
+    "linebreak",
+    "magick",
+    "openexr",
+    "pango",
+    "permalinks",
+    "submodules",
+    "tinyurl",
+    "webp"
+  ]
+}
