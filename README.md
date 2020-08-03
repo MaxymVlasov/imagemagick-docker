@@ -6,6 +6,8 @@
 
 * [Requirements](#requirements)
 * [Usage](#usage)
+  * [Exiting Docker Image](#exiting-docker-image)
+  * [Build from source](#build-from-source)
 * [Style guide for contributors](#style-guide-for-contributors)
 
 ## Requirements
@@ -14,13 +16,30 @@
 
 ## Usage
 
-1. Build image
+### Exiting Docker Image
+
+You can use exiting Docker image published to [Docker Hub](https://hub.docker.com/r/maxymvlasov/imagemagick-alpine).
+
+```bash
+docker run maxymvlasov/imagemagick-alpine
+```
+
+### Build from source
+
+1. Clone this repo
+
+```bash
+git clone git@github.com:MaxymVlasov/imagemagick-docker.git
+cd imagemagick-docker
+```
+
+2. Build image
 
 ```bash
 docker build -t imagemagick .
 ```
 
-2. Run
+3. Run
 
 ```bash
 docker run imagemagick:latest
